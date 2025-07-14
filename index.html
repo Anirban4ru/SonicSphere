@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SonicSphere | Music Events Across India</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Sonic<span>Sphere</span></h1>
+                <p>Elevate Your Musical Experience</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active">Events</a></li>
+                    <li><a href="#">Artists</a></li>
+                    <li><a href="#">Venues</a></li>
+                    <li><a href="#">About</a></li>
+                </ul>
+            </nav>
+            <div class="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h2>Discover the Best Music Events Across India</h2>
+            <p>From rock concerts to classical performances, find your musical vibe</p>
+            <div class="search-box">
+                <input type="text" placeholder="Search events, artists, or locations...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="filters">
+        <div class="container">
+            <div class="filter-group">
+                <button class="filter-btn active">All Events</button>
+                <button class="filter-btn">Rock</button>
+                <button class="filter-btn">Classical</button>
+                <button class="filter-btn">Bollywood</button>
+                <button class="filter-btn">Indie</button>
+                <button class="filter-btn">Jazz</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="container">
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="/api/placeholder/400/300" alt="Arijit Singh Concert">
+                    <div class="event-date">
+                        <span class="day">15</span>
+                        <span class="month">May</span>
+                    </div>
+                </div>
+                <div class="event-details">
+                    <h3>Arijit Singh: Enchanted Evening</h3>
+                    <div class="event-meta">
+                        <p><i class="fas fa-map-marker-alt"></i> DY Patil Stadium, Mumbai</p>
+                        <p><i class="fas fa-clock"></i> 7:00 PM Onwards</p>
+                    </div>
+                    <div class="event-perks">
+                        <span>VIP Lounge</span>
+                        <span>Meet & Greet</span>
+                        <span>Exclusive Merch</span>
+                    </div>
+                    <div class="event-actions">
+                        <span class="price">₹2,500 onwards</span>
+                        <button class="book-btn" data-event="arijit-singh">Book Tickets</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="/api/placeholder/400/300" alt="Bryan Adams Concert">
+                    <div class="event-date">
+                        <span class="day">22</span>
+                        <span class="month">Jun</span>
+                    </div>
+                </div>
+                <div class="event-details">
+                    <h3>Bryan Adams: The Tour</h3>
+                    <div class="event-meta">
+                        <p><i class="fas fa-map-marker-alt"></i> Jawaharlal Nehru Stadium, Delhi</p>
+                        <p><i class="fas fa-clock"></i> 6:30 PM Onwards</p>
+                    </div>
+                    <div class="event-perks">
+                        <span>Premium Seating</span>
+                        <span>Free Drinks</span>
+                        <span>Photo Opportunity</span>
+                    </div>
+                    <div class="event-actions">
+                        <span class="price">₹4,000 onwards</span>
+                        <button class="book-btn" data-event="bryan-adams">Book Tickets</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="/api/placeholder/400/300" alt="Jubin Nautiyal Concert">
+                    <div class="event-date">
+                        <span class="day">08</span>
+                        <span class="month">Jul</span>
+                    </div>
+                </div>
+                <div class="event-details">
+                    <h3>Jubin Nautiyal: Romantic Melodies</h3>
+                    <div class="event-meta">
+                        <p><i class="fas fa-map-marker-alt"></i> Indira Gandhi Arena, Hyderabad</p>
+                        <p><i class="fas fa-clock"></i> 8:00 PM Onwards</p>
+                    </div>
+                    <div class="event-perks">
+                        <span>Premium Lounge</span>
+                        <span>Complimentary Dinner</span>
+                        <span>Special Gift</span>
+                    </div>
+                    <div class="event-actions">
+                        <span class="price">₹1,800 onwards</span>
+                        <button class="book-btn" data-event="jubin-nautiyal">Book Tickets</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <div class="event-image">
+                    <img src="/api/placeholder/400/300" alt="Brandon Heath Concert">
+                    <div class="event-date">
+                        <span class="day">19</span>
+                        <span class="month">Jul</span>
+                    </div>
+                </div>
+                <div class="event-details">
+                    <h3>Brandon Heath: Live in India</h3>
+                    <div class="event-meta">
+                        <p><i class="fas fa-map-marker-alt"></i> Palace Grounds, Bangalore</p>
+                        <p><i class="fas fa-clock"></i> 7:30 PM Onwards</p>
+                    </div>
+                    <div class="event-perks">
+                        <span>Meet & Greet</span>
+                        <span>Signed Merchandise</span>
+                        <span>Early Entry</span>
+                    </div>
+                    <div class="event-actions">
+                        <span class="price">₹3,200 onwards</span>
+                        <button class="book-btn" data-event="brandon-heath">Book Tickets</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="upcoming-highlight">
+        <div class="container">
+            <div class="highlight-content">
+                <div class="highlight-text">
+                    <h2>Coming Soon</h2>
+                    <h3>A.R. Rahman: The Journey</h3>
+                    <p>Experience the musical genius live in an unforgettable evening celebrating three decades of
+                        soulful music.</p>
+                    <p class="highlight-date"><i class="fas fa-calendar-alt"></i> August 12, 2025</p>
+                    <p class="highlight-location"><i class="fas fa-map-marker-alt"></i> Marine Drive, Mumbai</p>
+                    <button class="notify-btn">Get Notified</button>
+                </div>
+                <div class="highlight-image">
+                    <img src="/api/placeholder/500/300" alt="A.R. Rahman Concert">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>SonicSphere</h3>
+                    <p>Your gateway to the best music experiences across India.</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Events</a></li>
+                        <li><a href="#">Artists</a></li>
+                        <li><a href="#">Venues</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our newsletter for the latest event updates.</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Your email address">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 SonicSphere. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Ticket Booking Modal -->
+    <div class="modal" id="bookingModal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h2>Book Tickets</h2>
+            <div class="event-info">
+                <h3 id="modal-event-title"></h3>
+                <p id="modal-event-location"></p>
+                <p id="modal-event-date"></p>
+            </div>
+            <form id="bookingForm">
+                <div class="form-group">
+                    <label for="ticketType">Ticket Type</label>
+                    <select id="ticketType">
+                        <option value="standard">Standard - ₹2,500</option>
+                        <option value="premium">Premium - ₹5,000</option>
+                        <option value="vip">VIP - ₹8,000</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="ticketQuantity">Quantity</label>
+                    <div class="quantity-selector">
+                        <button type="button" id="decreaseQuantity">-</button>
+                        <input type="number" id="ticketQuantity" value="1" min="1" max="10">
+                        <button type="button" id="increaseQuantity">+</button>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" placeholder="Enter your full name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Enter your email address">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="Enter your phone number">
+                </div>
+                <div class="total-amount">
+                    <p>Total: <span id="totalAmount">₹2,500</span></p>
+                </div>
+                <button type="submit" id="confirmBooking">Confirm Booking</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
